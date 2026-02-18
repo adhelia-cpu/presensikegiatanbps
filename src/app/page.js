@@ -10,7 +10,7 @@ export default function LoginPage() {
             className="w-40 h-auto drop-shadow-md" 
           />
         </div>
-        <h1 className="text-white text-[30px] font-black tracking-widest mb-8 font-sans">
+        <h1 className="text-white text-xl font-black tracking-widest mb-6 font-sans">
           SELAMAT DATANG
         </h1>
 
