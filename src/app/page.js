@@ -17,13 +17,13 @@ export default function LoginPage() {
         <input 
           type="text" 
           placeholder="Username" 
-          className="w-full bg-white border border-gray-300 rounded-full px-6 py-4 mb-4 focus:outline-none font-bold italic placeholder:text-gray-400 shadow-sm"
+          className="w-full bg-white border border-black-300 rounded-full px-6 py-4 mb-4 focus:outline-none font-bold placeholder:text-gray-400 shadow-sm"
         />
 
         <input 
           type="password" 
           placeholder="Password" 
-          className="w-full bg-white border border-gray-300 rounded-full px-6 py-4 mb-8 focus:outline-none font-bold italic placeholder:text-gray-400 shadow-sm"
+          className="w-full bg-white border border-black-300 rounded-full px-6 py-4 mb-8 focus:outline-none font-bold placeholder:text-gray-400 shadow-sm"
         />
 
         <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-12 rounded-full text-lg mb-6 shadow-lg transition-all w-full">
