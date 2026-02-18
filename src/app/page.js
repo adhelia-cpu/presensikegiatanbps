@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function LoginPage() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-blue-100 p-10">
-      <div className="bg-white w-full max-w-md p-8 rounded-[30px] shadow-xl flex flex-col items-center">
+      <div className="bg-white w-full max-w-sm p-8 rounded-[30px] shadow-xl flex flex-col items-center">
       <div className="flex flex-col items-center w-full max-w-sm">
         <div className="mb-6"> 
           <img 
