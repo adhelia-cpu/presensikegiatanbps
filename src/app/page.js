@@ -15,7 +15,7 @@ export default function LoginPage() {
           BADAN PUSAT STATISTIK
         </h2>
 
-        <h1 className="text-blue-600 text-4xl font-black tracking-[0.2em] mb-8 font-sans text-center">
+        <h1 className="text-blue-600 text-base font-black tracking-[0.2em] mb-8 font-sans text-center">
           SELAMAT DATANG
         </h1>
 
