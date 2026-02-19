@@ -1,5 +1,14 @@
+"use client";
+import { useRouter } from "next/navigation";
 import Image from "next/image"; 
 export default function LoginPage() {
+  const router = useRouter();
+
+  const handleLogin = () => {
+    // Di sini nanti bisa ditambah validasi username/password
+    // Untuk sekarang, kita langsung pindahkan ke dashboard
+    router.push("/dashboard");
+  };
   return (
     <div className="flex min-h-screen items-center justify-center bg-blue-100 p-10">
       <div className="bg-white w-full max-w-sm p-8 rounded-[30px] shadow-xl flex flex-col items-center">
