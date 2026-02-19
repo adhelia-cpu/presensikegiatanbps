@@ -40,7 +40,9 @@ export default function LoginPage() {
           className="w-full bg-white border border-black-300 rounded-full px-6 py-4 mb-8 focus:outline-none font-bold placeholder:text-gray-400 shadow-sm"
         />
 
-       <button className="bg-[#1e5eff] hover:bg-blue-700 text-white font-black py-3 px-12 rounded-full text-lg mb-4 shadow-lg transition-transform active:scale-95 w-full">
+       <button 
+          onClick={handleLogin}
+          className="bg-[#1e5eff] hover:bg-blue-700 text-white font-black py-3 px-12 rounded-full text-lg mb-4 shadow-lg transition-transform active:scale-95 w-full">
           LOGIN
         </button>
 
