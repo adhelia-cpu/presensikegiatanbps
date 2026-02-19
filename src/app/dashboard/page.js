@@ -6,7 +6,7 @@ export default function DashboardPage() {
       
       {/* 1. Header Biru */}
       <div className="bg-[#5D7BFF] p-6 pt-10 pb-16 rounded-b-[40px]">
-        <div className="flex justify-between items-center text-white">
+        <div className="flex flex-row items-center justify-center text-white space-y-2">
           <div className="bg-white/20 p-2 rounded-full">
             <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
               <span className="text-blue-600 font-bold text-xs">Logo</span>
@@ -29,7 +29,7 @@ export default function DashboardPage() {
         {/* 3. Barisan Tombol Menu Hijau */}
         <div className="space-y-4">
           {/* Tombol Pindai QR */}
-          <button className="w-full bg-[#4ADE80] hover:bg-green-500 text-white p-5 rounded-xl flex items-center space-x-4 shadow-lg transition-transform active:scale-95">
+          <button className="w-full bg-[#4ADE80] hover:bg-gradient-to-r from-green-400 to-green-500 text-white p-5 rounded-xl flex items-center space-x-4 shadow-lg transition-transform active:scale-95">
             <div className="bg-white/20 p-2 rounded-lg">
               <Camera size={32} />
             </div>
@@ -55,10 +55,10 @@ export default function DashboardPage() {
       </div>
 
       {/* 4. Bottom Navigation Bar */}
-      <div className="bg-[#5D7BFF] p-4 flex justify-around items-center rounded-t-[30px] mt-10">
-        <Home className="text-white cursor-pointer" size={28} />
-        <History className="text-white/60 cursor-pointer" size={28} />
-        <User className="text-white/60 cursor-pointer" size={28} />
+      <div className="fixed bottom-0 left-0 right-0 max-w-md mx-auto bg-[#5D7BFF]/90 backdrop-blur-md p-4 flex justify-around items-center rounded-t-[30px] shadow-[0_-5px_20px_rgba(0,0,0,0.1)]">
+        <Home className="text-white drop-shadow-md" size={28} />
+        <History className="text-white/50 hover:text-white transition-colors" size={28} />
+        <User className="text-white/50 hover:text-white transition-colors" size={28} />
       </div>
       
     </div>
